@@ -15,6 +15,14 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-weight: 700;
+}
+.nav-list {
+  color: #434455;
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: #404bbf;
 }
 .studio {
   color: #2e2f42;
@@ -48,9 +56,6 @@ ul {
 /* Title */
 .first-section {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
 
 .title {
@@ -127,6 +132,7 @@ ul {
   text-align: center;
 }
 .team-names-text {
+  background-color: #ffffff;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
