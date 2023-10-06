@@ -1,13 +1,24 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: #434455;
+  background-color: #fff;
 }
 ul {
   list-style-type: none;
 }
 
 /* Header */
-
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio {
+  color: #2e2f42;
+}
 .header-nav {
   font-size: 16px;
   font-weight: 500;
@@ -16,14 +27,22 @@ ul {
   text-align: left;
   color: #2e2f42;
 }
-
-.adress {
+.header-nav:hover,
+.header-nav:focus {
+  color: #404bbf;
+}
+.address {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
+  font-style: normal;
+}
+.address:hover,
+.address:focus {
+  color: #404bbf;
 }
 
 /* Title */
@@ -35,15 +54,16 @@ ul {
 }
 
 .title {
-  color: var(--WHITE, #fff);
+  color: #fff;
   text-align: center;
-  font-family: Roboto;
+
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+
   letter-spacing: 1.12px;
   padding: 472, 188, 472, 292;
+  line-height: 1.07;
 }
 
 .button {
@@ -56,17 +76,25 @@ ul {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background: #404bbf;
   padding: 16px, 32px;
 }
+
+/* Our advantages */
+
 .advantages {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
 }
 .advantages-text {
   font-size: 16px;
@@ -74,15 +102,24 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #434455;
+}
+
+/*Our team*/
+.teamates {
+  background-color: #f4f4fd;
 }
 .team {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-names {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -90,20 +127,25 @@ ul {
   text-align: center;
 }
 .team-names-text {
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
 }
+/*Portfolio*/
 .portfolio {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-prog {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -111,13 +153,20 @@ ul {
   text-align: left;
 }
 .portfolio-prog-text {
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
 }
+/*Footer*/
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-under {
+  color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
