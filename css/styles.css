@@ -179,6 +179,10 @@ ul {
   background-color: #2e2f42;
 }
 
+.studio-footer {
+  color: #f4f4fd;
+}
+
 .footer-under {
   color: #f4f4fd;
   font-size: 16px;
@@ -186,7 +190,4 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-}
-.logo-footer {
-  color: #f4f4fd;
 }
